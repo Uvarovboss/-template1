@@ -144,3 +144,7 @@ h3{
 .bloc4{
 	display: flex;
 }
+.bloc4_column{
+	display: flex;
+	flex-direction: column;
+}
