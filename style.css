@@ -77,6 +77,9 @@ button:hover{
 	margin-left: 100px;
 
 }
+.blocbackground{
+	width: 70%;
+}
 .blok3{
 	display: flex;
 	justify-content: space-around;
@@ -109,25 +112,10 @@ button:hover{
 .section4{
 	margin: 0;
 	height: 450px;
-}
-.example1Blok{
-	position: relative;
-	top: -95px;
-	right: 50px;
-	width: 350px;
-	height: 900px;
-	transform: rotate(133deg);
-
-}
-.boths{
-	clear: both;
+	display: flex;
 }
 .macbook1{
-	position: relative;
-	top: -850px;
-	left: 20px;
-	width: 300px;
-	height:10%;
+	margin-top:50px;
 }
 span{
 	color: red;
@@ -136,15 +124,98 @@ h3{
 	color: red;
 }
 .lorem{
+	margin-top: 70px;
+	margin-left: 100px;
 	width: 30%;
-	position: relative;
-	top: -830px;
-	left: 800px;
+	display: flex;
+	flex-direction: column;
+
 }
 .bloc4{
 	display: flex;
+	justify-content: space-around;
+	height: 500px;
+	background-image: url(background4.png);
+	background-color: black;
+}
+.bloc4 h1 p{
+		color: grey;
 }
 .bloc4_column{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	width: 20%;
+	text-align-last: center;
+	margin-top: 100px;
+}
+.Big_Boss{
+	display: flex;
+	justify-content: space-around;
+	margin-top: -100px;
+	flex-wrap: wrap;
+}
+h1{
+	color: white;
+}
+p{
+	color: grey;
+}
+.blok5{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.blok5 p{
+ 	width: 40%;
+}
+.blok5 h2{
+	font-size: 35px;
+}
+.form_input{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #0A0A2A;
+}
+.form_input h1{
+	margin-top: 20px;
+}
+.button{
+	width: 150px;
+	background-color: red;
+	color: grey;
+	border: none;
+	transition: all 1s; 
+}
+.button:hover{
+	color: black;
+	transition: all 2s;
+	background-color: yellow;
+}
+input{
+	border: none;
+	height: 30px;
+	background-color: #D8D8D8;
+	margin-left: 20px;
+}
+a{
+	color: grey;
+}
+.input{
+	margin-top: 30px;
+}
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.textstart{
+	width: 25%;
+}
+form{
+	display: flex;
+	flex-wrap: wrap;
 }
