@@ -88,6 +88,7 @@ button:hover{
 	align-items: center;
 	background: url(background.blok3.png);
 	background-repeat: no-repeat;
+	margin: 20px;
 	/*background-size: cover;*/
 	padding: 220px;
 }
@@ -96,21 +97,21 @@ button:hover{
 	flex-direction: column;
 	align-items: center;
 	text-align-last: center;
-	width: 30%;
+	width: 35%;
 }
 .braserblok2{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align-last: center;
-	width: 30%;
+	width: 35%;
 }
 .braserblok3{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align-last: center;
-	width: 30%;
+	width: 35%;
 }
 .section4{
 	margin: 0;
