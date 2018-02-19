@@ -88,7 +88,7 @@ button:hover{
 	align-items: center;
 	background: url(background.blok3.png);
 	background-repeat: no-repeat;
-	margin: 20px;
+	margin: 0;
 	/*background-size: cover;*/
 	padding: 220px;
 }
