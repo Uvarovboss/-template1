@@ -229,6 +229,9 @@ footer img{
 footer h2{
 	color: red;
 }
+footer{
+	background-color: lightgrey;
+}
 .textstart{
 	width: 25%;
 }
