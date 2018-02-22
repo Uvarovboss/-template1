@@ -51,9 +51,10 @@ button:hover{
 .secondBox{
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
-
-
+	justify-content: space-between;
+}
+.box{
+	margin-left: 100px;
 }
 .secondBox  img{
 	margin: 0;
